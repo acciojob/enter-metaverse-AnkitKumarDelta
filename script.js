@@ -1,5 +1,5 @@
-//your JS code here. If required.
-let p = document.querySelector('p');
-function handleclick(){
-	p.innerText = 'Entered Metaverse';
+let p = document.getElementById("status");
+
+function handleclick() {
+    p.innerHTML = "<h1>Entered Metaverse</h1>";
 }
